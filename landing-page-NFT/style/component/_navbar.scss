@@ -1,0 +1,69 @@
+@import '../abstract/var';
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 10px;
+    background-color: black;
+    color: $heading-color;
+
+    h1 {
+        color: $heading-color;
+        font-size: 50px;
+        margin: 0 40px;
+
+    }
+
+    div {
+        a {
+            text-decoration: none;
+            padding-right: 35px;
+            color: $paragraph-color;
+            font-size: 16px;
+
+            &:hover {
+                color: $heading-color;
+                transition: .2s;
+            }
+        }
+
+    }
+
+    div {
+        display: flex;
+        justify-content: space-evenly;
+        width: 30%;
+        align-items: center;
+        justify-items: center;
+
+        .icon-nav {
+            font-size: 25px;
+            padding-right: 40px;
+            border-right: 2px solid $heading-color;
+            cursor: pointer;
+        }
+
+        button {
+           
+            width: 40%;
+            padding: 15px;
+            border: none;
+            border-radius: 5px;
+            font-size: $body-font;
+            letter-spacing: 0.5px;
+            color: $heading-color;
+            background: rgb(100, 86, 203);
+            background: linear-gradient(48deg, rgba(100, 86, 203, 1) 0%, rgba(203, 89, 185, 1) 50%, rgba(246, 185, 124, 1) 100%);
+        &:hover{
+            width: 41%;
+            font-size: 17px;
+            background: rgb(100, 86, 203);
+            background: linear-gradient(60deg, rgba(100, 86, 203, 1) 10%, rgba(203, 89, 185, 1) 60%, rgba(246, 185, 124, 1) 100%);
+            cursor: pointer;
+        }
+        }
+    }
+}

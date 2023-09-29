@@ -1,0 +1,20 @@
+footer{
+    background-color: black;
+    color: white;
+    font-style: none;
+    padding: 5rem;
+
+    .conteiner-footer{
+        display: flex;
+        .conteinet-text{
+            width: 30%;
+
+        }
+        .conteiner-social{
+           list-style: none;
+           align-items: center;
+           color: white;
+        }
+    }
+    
+}

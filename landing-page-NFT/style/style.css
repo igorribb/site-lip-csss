@@ -1,0 +1,350 @@
+html, body {
+  font-family: "kanit", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+  padding: 10px;
+  background-color: black;
+  color: #FFFFFF;
+}
+nav h1 {
+  color: #FFFFFF;
+  font-size: 50px;
+  margin: 0 40px;
+}
+nav div a {
+  text-decoration: none;
+  padding-right: 35px;
+  color: #BABABA;
+  font-size: 16px;
+}
+nav div a:hover {
+  color: #FFFFFF;
+  transition: 0.2s;
+}
+nav div {
+  display: flex;
+  justify-content: space-evenly;
+  width: 30%;
+  align-items: center;
+  justify-items: center;
+}
+nav div .icon-nav {
+  font-size: 25px;
+  padding-right: 40px;
+  border-right: 2px solid #FFFFFF;
+  cursor: pointer;
+}
+nav div button {
+  width: 40%;
+  padding: 15px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  letter-spacing: 0.5px;
+  color: #FFFFFF;
+  background: rgb(100, 86, 203);
+  background: linear-gradient(48deg, rgb(100, 86, 203) 0%, rgb(203, 89, 185) 50%, rgb(246, 185, 124) 100%);
+}
+nav div button:hover {
+  width: 41%;
+  font-size: 17px;
+  background: rgb(100, 86, 203);
+  background: linear-gradient(60deg, rgb(100, 86, 203) 10%, rgb(203, 89, 185) 60%, rgb(246, 185, 124) 100%);
+  cursor: pointer;
+}
+
+main section:nth-child(1) {
+  width: 100%;
+  background-color: #14141f;
+}
+main section:nth-child(1) .conteiner {
+  max-width: 1100px;
+  margin: 0 auto;
+  border: none;
+}
+main section:nth-child(1) .conteiner .banner {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-items: center;
+  justify-content: space-evenly;
+  padding: 3rem;
+  width: 100%;
+}
+main section:nth-child(1) .conteiner .banner h1:nth-child(1) {
+  font-size: 130px;
+  text-transform: uppercase;
+  line-height: 150px;
+  color: #FFFFFF;
+}
+main section:nth-child(1) .conteiner .banner p {
+  width: 500px;
+  color: #BABABA;
+  border-bottom: 1px solid white;
+  padding: 26px;
+  align-items: flex-end;
+}
+main section:nth-child(1) .conteiner .card-img .conteiner-img-igor {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+main section:nth-child(1) .conteiner .card-img img {
+  width: 20%;
+  border-radius: 50%;
+}
+main section:nth-child(1) .conteiner .card-img p {
+  font-size: 25px;
+  border-bottom: 2px solid white;
+  width: 50%;
+}
+main section:nth-child(1) .conteiner .h1-allay {
+  font-size: 250px;
+  text-transform: uppercase;
+  padding: 0 0 0 240px;
+  color: #FFFFFF;
+  line-height: 200px;
+}
+main section:nth-child(1) .conteiner-section1 {
+  display: flex;
+  background-color: #14141f;
+}
+main section:nth-child(1) .conteiner-section1 .conteiner-button {
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main section:nth-child(1) .conteiner-section1 .conteiner-button .button-section1 {
+  width: 50px;
+  height: 100px;
+  border-radius: 50px;
+  font-size: 20px;
+  background-color: black;
+  color: #FFFFFF;
+}
+main section:nth-child(1) .conteiner-section1 .conteiner-button .button-section1:hover {
+  background-color: #3A3A3A;
+  cursor: pointer;
+  font-size: 22px;
+  border: 1px solid white;
+}
+main section:nth-child(1) .conteiner-section1 .imagem-section1 {
+  height: 300px;
+  width: 80%;
+  background-image: url(/landing-page-NFT/img/HD-wallpaper-technology-nft.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right;
+  border-radius: 10px 0 0 10px;
+}
+main section:nth-child(2) {
+  background-color: #14141f;
+  min-height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  color: white;
+}
+main section:nth-child(2) .card {
+  border-left: 5px solid;
+  -o-border-image: linear-gradient(0deg, rgb(100, 86, 203) 0%, rgb(203, 89, 185) 50%, rgb(246, 185, 124) 100%) 0.5;
+     border-image: linear-gradient(0deg, rgb(100, 86, 203) 0%, rgb(203, 89, 185) 50%, rgb(246, 185, 124) 100%) 0.5;
+}
+main section:nth-child(2) .card {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  border-radius: 0 10px 10px 0;
+  width: 40%;
+  height: 130px;
+  padding: 1.8rem;
+  background-color: #1C1C2A;
+}
+main section:nth-child(2) .card:hover {
+  background-color: #3A3A3A;
+  cursor: pointer;
+}
+main section:nth-child(2) .card .h2-letter {
+  letter-spacing: 10px;
+  font-size: 50px;
+}
+main section:nth-child(2) .card .h2-letter-2 {
+  letter-spacing: 1px;
+  font-size: 50px;
+  line-height: 70px;
+}
+main section:nth-child(3) {
+  background-color: #000000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: wheat;
+  padding: 3rem;
+}
+main section:nth-child(3) div h2 {
+  font-size: 40px;
+  color: #FFFFFF;
+  padding: 20px;
+}
+main section:nth-child(3) div p {
+  font-size: 20px;
+  max-width: 550px;
+  padding-left: 1rem;
+  padding: 20px;
+  color: #BABABA;
+  font-weight: 300;
+  border-left: 5px solid;
+  -o-border-image: linear-gradient(0deg, rgb(100, 86, 203) 0%, rgb(203, 89, 185) 50%, rgb(246, 185, 124) 100%) 0.5;
+     border-image: linear-gradient(0deg, rgb(100, 86, 203) 0%, rgb(203, 89, 185) 50%, rgb(246, 185, 124) 100%) 0.5;
+}
+main section:nth-child(4) {
+  background-color: #000000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: wheat;
+  padding: 3rem;
+}
+main section:nth-child(4) div h2 {
+  font-size: 40px;
+  color: #FFFFFF;
+  padding: 20px;
+}
+main section:nth-child(4) div p {
+  font-size: 20px;
+  max-width: 550px;
+  padding-left: 1rem;
+  padding: 20px;
+  color: #BABABA;
+  font-weight: 300;
+  border-left: 5px solid;
+  -o-border-image: linear-gradient(0deg, rgb(100, 86, 203) 0%, rgb(203, 89, 185) 50%, rgb(246, 185, 124) 100%) 0.5;
+     border-image: linear-gradient(0deg, rgb(100, 86, 203) 0%, rgb(203, 89, 185) 50%, rgb(246, 185, 124) 100%) 0.5;
+}
+main section:nth-child(5) .conteiner-section4 {
+  display: flex;
+  justify-content: center;
+  padding: 3rem;
+  background-color: #000000;
+  color: white;
+}
+main section:nth-child(5) .conteiner-section4 .text-conteiner-section4 {
+  text-align: center;
+  align-self: center;
+  text-align: left;
+}
+main section:nth-child(5) .conteiner-section4 .text-conteiner-section4 h3 {
+  font-size: 50px;
+}
+main section:nth-child(5) .conteiner-section4 .text-conteiner-section4 p {
+  text-align: center;
+}
+main section:nth-child(5) .conteiner-section4 .figure-conteiner-section4 {
+  width: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main section:nth-child(5) .conteiner-section4 .figure-conteiner-section4 .button-fig-section4 {
+  width: 150px;
+  height: 150px;
+  border-radius: 100%;
+  border: none;
+  background: rgb(100, 86, 203);
+  background: linear-gradient(48deg, rgb(100, 86, 203) 0%, rgb(203, 89, 185) 50%, rgb(246, 185, 124) 100%);
+  transition: all 0.3s ease-in-out;
+}
+main section:nth-child(5) .conteiner-section4 .figure-conteiner-section4 .button-fig-section4 i {
+  font-size: 70px;
+}
+main section:nth-child(5) .video {
+  text-align: center;
+  background-color: #000000;
+}
+main section:nth-child(5) .quizz-cortela {
+  text-align: center;
+  padding: 1rem;
+  background-color: #000000;
+}
+main section:nth-child(5) .quizz-cortela p {
+  color: white;
+  padding: 3rem;
+  font-size: 30px;
+}
+main section:nth-child(5) .card-market {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  color: white;
+  background-color: #14141f;
+}
+main section:nth-child(5) .card-market .mkt-card {
+  width: 280px;
+  height: 350px;
+  margin: 1rem;
+  padding: 2rem;
+  text-align: left;
+  background-color: #1C1C2A;
+  border-radius: 15px;
+}
+main section:nth-child(5) .card-market .mkt-card i {
+  display: flex;
+  align-self: flex-start;
+  font-size: 30px;
+  margin: 20px 0;
+}
+main section:nth-child(5) .card-market .mkt-card h4 {
+  margin: 20px 0;
+  font-size: 25px;
+  line-height: 25px;
+}
+main section:nth-child(5) .card-market .mkt-card p {
+  font-size: 12px;
+  font-weight: 300;
+  margin: 20px 0;
+}
+main section:nth-child(5) .card-market .mkt-card:hover {
+  background: linear-gradient(48deg, rgb(100, 86, 203) 0%, rgb(203, 89, 185) 50%, rgb(246, 185, 124) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  border: 1px solid #1C1C2A;
+}
+main section:nth-child(5) .card-market .color-card {
+  background-color: #1C1C2A;
+}
+main section:nth-child(6) {
+  background-color: #14141f;
+  color: azure;
+  text-align: center;
+  padding: 5rem;
+}
+main section:nth-child(6) img {
+  width: 300px;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  font-style: none;
+  padding: 5rem;
+}
+footer .conteiner-footer {
+  display: flex;
+}
+footer .conteiner-footer .conteinet-text {
+  width: 30%;
+}
+footer .conteiner-footer .conteiner-social {
+  list-style: none;
+  align-items: center;
+  color: white;
+}/*# sourceMappingURL=style.css.map */

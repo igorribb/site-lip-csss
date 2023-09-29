@@ -1,0 +1,17 @@
+footer {
+  background-color: black;
+  color: white;
+  font-style: none;
+  padding: 5rem;
+}
+footer .conteiner-footer {
+  display: flex;
+}
+footer .conteiner-footer .conteinet-text {
+  width: 30%;
+}
+footer .conteiner-footer .conteiner-social {
+  list-style: none;
+  align-items: center;
+  color: white;
+}/*# sourceMappingURL=footer.css.map */

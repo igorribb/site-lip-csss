@@ -1,0 +1,349 @@
+@import '../abstract/var';
+
+main {
+    section:nth-child(1) {
+        width: 100%;
+        background-color: $principal-black;
+
+
+        .conteiner {
+            max-width: 1100px;
+            margin: 0 auto;
+            border: none;
+
+            .banner {
+                display: flex;
+                flex-wrap: wrap;
+                align-items: center;
+                justify-items: center;
+                justify-content: space-evenly;
+                padding: 3rem;
+                width: 100%;
+
+
+
+
+                h1:nth-child(1) {
+                    font-size: 130px;
+                    text-transform: uppercase;
+                    line-height: 150px;
+                    color: $heading-color;
+
+
+
+                }
+
+                p {
+                    width: 500px;
+                    color: $paragraph-color;
+                    border-bottom: 1px solid white;
+                    padding: 26px;
+                    align-items: flex-end;
+
+
+                }
+            }
+            .card-img{
+                .conteiner-img-igor{
+                 display: flex;
+                 align-items: center;
+                 justify-content: space-evenly;
+                }
+                img{
+                  width: 20%;
+                  border-radius: 50%;
+                }
+                p{
+                    font-size: 25px;
+                    border-bottom: 2px solid white;
+                    width: 50%;
+                    
+                }
+            }
+
+            .h1-allay {
+                font-size: 250px;
+                text-transform: uppercase;
+                padding: 0 0 0 240px;
+                color: $heading-color;
+                line-height: 200px;
+            }
+        }
+
+        .conteiner-section1 {
+            display: flex;
+            background-color: $principal-black;
+
+            .conteiner-button {
+                width: 20%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+
+                .button-section1 {
+                    width: 50px;
+                    height: 100px;
+                    border-radius: 50px;
+                    font-size: 20px;
+                    background-color: rgba($color: #000000, $alpha: 1.0);
+                    color: $heading-color;
+
+                    &:hover {
+
+                        background-color: $terciari-black;
+                        cursor: pointer;
+                        font-size: 22px;
+                        border: 1px solid white;
+                    }
+                }
+
+
+            }
+
+            .imagem-section1 {
+                height: 300px;
+                width: 80%;
+                background-image: url(/landing-page-NFT/img/HD-wallpaper-technology-nft.jpg);
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-position: right;
+                border-radius: 10px 0 0 10px;
+            }
+        }
+
+
+
+    }
+
+    section:nth-child(2) {
+        background-color: $principal-black;
+        min-height: 300px;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        color: white;
+
+        .card {
+            border-left: 5px solid;
+            border-image: linear-gradient(0deg, rgba(100, 86, 203, 1) 0%, rgba(203, 89, 185, 1) 50%, rgba(246, 185, 124, 1) 100%) .5;
+
+        }
+
+        .card {
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            border-radius: 0 10px 10px 0;
+            width: 40%;
+            height: 130px;
+            padding: 1.8rem;
+            background-color: $secundari-black;
+
+            &:hover {
+                background-color: $terciari-black;
+                cursor: pointer;
+            }
+
+            .h2-letter {
+
+                letter-spacing: 10px;
+                font-size: 50px;
+            }
+
+            .h2-letter-2 {
+                letter-spacing: 1px;
+                font-size: 50px;
+                line-height: 70px;
+
+
+            }
+        }
+    }
+
+    section:nth-child(3) {
+        background-color: #000000;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: wheat;
+        padding: 3rem;
+
+        div {
+            h2 {
+                font-size: $h2-title / 2.5;
+                color: $heading-color;
+                padding: 20px;
+            }
+
+            p {
+                font-size: 20px;
+                max-width: 550px;
+                padding-left: 1rem;
+                padding: 20px;
+                color: $paragraph-color;
+                font-weight: 300;
+                border-left: 5px solid;
+                border-image: linear-gradient(0deg, rgba(100, 86, 203, 1) 0%, rgba(203, 89, 185, 1) 50%, rgba(246, 185, 124, 1) 100%) .5;
+            }
+        }
+    }
+    section:nth-child(4) {
+        background-color: #000000;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: wheat;
+        padding: 3rem;
+
+        div {
+            h2 {
+                font-size: $h2-title / 2.5;
+                color: $heading-color;
+                padding: 20px;
+            }
+
+            p {
+                font-size: 20px;
+                max-width: 550px;
+                padding-left: 1rem;
+                padding: 20px;
+                color: $paragraph-color;
+                font-weight: 300;
+                border-left: 5px solid;
+                border-image: linear-gradient(0deg, rgba(100, 86, 203, 1) 0%, rgba(203, 89, 185, 1) 50%, rgba(246, 185, 124, 1) 100%) .5;
+            }
+        }
+        
+    }
+
+    section:nth-child(5) {
+        .conteiner-section4 {
+            display: flex;
+            justify-content: center;
+            padding: 3rem;
+            background-color: #000000;
+            color: white;
+
+
+            .text-conteiner-section4 {
+                
+                text-align: center;
+                align-self: center;
+                text-align: left;
+                    
+                h3 {
+                    font-size: $h2-title / 2;
+                   
+                }
+                p{
+                    text-align: center;
+                }
+            }
+
+            .figure-conteiner-section4 {
+                width: 40%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+                .button-fig-section4 {
+                    width: 150px;
+                    height: 150px;
+                    border-radius: 100%;
+                    border: none;
+                    background: rgb(100, 86, 203);
+                    background: linear-gradient(48deg, rgba(100, 86, 203, 1) 0%, rgba(203, 89, 185, 1) 50%, rgba(246, 185, 124, 1) 100%);
+                    transition: all 0.3s ease-in-out;
+
+
+                    i {
+
+                        font-size: 70px;
+                    }
+                }
+            }
+           
+        }
+         .video{
+            text-align: center;
+            background-color: #000000;
+        }
+        .quizz-cortela{
+            text-align: center;
+            padding: 1rem;
+            background-color: #000000;
+
+            p{
+                color: white;
+                padding: 3rem;
+                font-size: 30px;
+            }
+        }
+
+        .card-market {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            color: white;
+            background-color: $principal-black;
+
+            .mkt-card {
+                width: 280px;
+                height: 350px;
+                margin: 1rem;
+                padding: 2rem;
+                text-align: left;
+                background-color: $secundari-black;
+                border-radius: 15px;
+
+
+                i {
+                    display: flex;
+                    align-self: flex-start;
+                    font-size: 30px;
+                    margin: 20px 0;
+                }
+
+                h4 {
+                    margin: 20px 0;
+                    font-size: $h2-title / 4;
+                    line-height: 25px;
+                }
+
+                p {
+                    font-size: 12px;
+                    font-weight: 300;
+                    margin: 20px 0;
+                }
+
+                &:hover {
+                    background: linear-gradient(48deg, rgba(100, 86, 203, 1) 0%, rgba(203, 89, 185, 1) 50%, rgba(246, 185, 124, 1) 100%);
+                    -webkit-background-clip: text;
+                    -webkit-text-fill-color: transparent;
+                    border: 1px solid $secundari-black;
+
+
+                }
+            }
+
+            .color-card {
+                background-color: $secundari-black;
+            }
+        }
+    }
+
+     section:nth-child(6){
+        background-color: $principal-black;
+        color: azure;
+        text-align: center;
+        padding: 5rem;
+        
+       img{
+        width: 320px;
+        
+       }
+        }
+    }
+
+
